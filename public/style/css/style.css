@@ -1,0 +1,73 @@
+:root {
+    --accent-color: #fff;
+    --btn-color: #027468;
+    --white-a6: #fff6;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../../images/welcomePage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+}
+.container {
+    position: inherit;
+    top: 50px;
+}
+.title {
+    position: relative;
+    z-index: 1;
+}
+h1  {
+    background: transparent;
+    border: transparent; 
+    font-family: 'Tangerine', cursive;
+    font-size: 5.2rem !important;
+    letter-spacing: 4px;
+    color: ivory;
+    width: 800px;
+}
+
+
+.form-title {
+    color: var(--accent-color);
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+.signup-form {
+    margin-top: 115px;
+    font-family: sans-serif;
+}
+.form-group label, .signup-form p {
+    color: var(--accent-color) !important;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 3px 0 #26A69A;
+}
+input.form-control {
+    color: var(--accent-color);
+    padding: 0 10px !important;
+}
+input.form-control:focus {
+    background: var(--white-a6);
+}
+input::placeholder {
+    color: wheat !important;
+}
+.btn {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.btn:hover {
+    background: var(--btn-color);
+}
+.signup-form p {
+    margin-top: -40px;
+}
